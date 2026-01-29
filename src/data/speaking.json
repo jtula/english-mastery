@@ -1,0 +1,31 @@
+[
+    {
+        "id": "greetings-basics",
+        "title": "Basic Greetings",
+        "level": "Beginner",
+        "description": "Essential phrases to start a conversation.",
+        "drills": [
+            {
+                "id": "drill-1",
+                "phrase": "Hello, how are you?",
+                "phonetic": "/həˈloʊ haʊ ɑr ju/",
+                "translation": "Hola, ¿cómo estás?",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-2",
+                "phrase": "My name is John.",
+                "phonetic": "/maɪ neɪm ɪz dʒɑn/",
+                "translation": "Mi nombre es John.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-3",
+                "phrase": "Nice to meet you.",
+                "phonetic": "/naɪs tu mit ju/",
+                "translation": "Gusto en conocerte.",
+                "audioUrl": ""
+            }
+        ]
+    }
+]

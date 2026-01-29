@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import DashboardGrid from '../components/DashboardGrid.jsx';
+import curriculum from '../data/curriculum.json';
+---
+
+<Layout title="Dashboard">
+	<div class="space-y-12">
+		<!-- Hero Section -->
+		<section class="text-center space-y-4">
+			<h1 class="text-5xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent pb-2">
+				Master American English
+			</h1>
+			<p class="text-xl text-gray-400 max-w-2xl mx-auto">
+				Accelerate your learning with interactive grammar lessons and real-time speaking practice.
+			</p>
+		</section>
+
+		<DashboardGrid client:load curriculum={curriculum} />
+	</div>
+</Layout>

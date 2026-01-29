@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import VocabularyReview from '../components/VocabularyReview.jsx';
+---
+
+<Layout title="Daily Review">
+    <div class="h-full">
+         <a href="/" class="inline-flex items-center text-gray-400 hover:text-white transition-colors absolute top-28 left-6 md:static md:mt-8 md:ml-8 z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" /></svg>
+            Back to Dashboard
+        </a>
+
+        <VocabularyReview client:only="react" />
+    </div>
+</Layout>
+
+<style is:global>
+    /* 3D Flip Utilities */
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+    .transform-style-3d {
+        transform-style: preserve-3d;
+    }
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+    .rotate-y-180 {
+        transform: rotateY(180deg);
+    }
+</style>

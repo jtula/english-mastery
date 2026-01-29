@@ -1,0 +1,45 @@
+[
+    {
+        "id": "to-be-present",
+        "title": "Verb To Be (Present)",
+        "level": "Beginner",
+        "description": "Learn how to introduce yourself and describe things.",
+        "theory": "## The Verb 'To Be'\n\nThe verb **to be** is the most important verb in English. It equates to 'ser' or 'estar' in Spanish.\n\n| Pronoun | Verb | Contraction | Spanish |\n|---------|------|-------------|---------|\n| I       | am   | I'm         | Yo soy/estoy |\n| You     | are  | You're      | Tú eres/estás |\n| He      | is   | He's        | Él es/está |\n| She     | is   | She's       | Ella es/está |\n| It      | is   | It's        | Eso es/está |\n| We      | are  | We're       | Nosotros somos/estamos |\n| They    | are  | They're     | Ellos son/están |",
+        "examples": [
+            {
+                "en": "I am a student.",
+                "es": "Soy estudiante."
+            },
+            {
+                "en": "She is happy.",
+                "es": "Ella está feliz."
+            },
+            {
+                "en": "They are friends.",
+                "es": "Ellos son amigos."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "___ you happy?",
+                "options": [
+                    "Is",
+                    "Am",
+                    "Are"
+                ],
+                "correct": "Are",
+                "explanation": "'You' goes with 'Are'."
+            },
+            {
+                "question": "She ___ my sister.",
+                "options": [
+                    "are",
+                    "is",
+                    "am"
+                ],
+                "correct": "is",
+                "explanation": "'She' is 3rd person singular, so we use 'is'."
+            }
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import DashboardGrid from '../../components/DashboardGrid.jsx';
+import curriculum from '../../data/curriculum.json';
+
+const speakingCurriculum = curriculum.map(level => ({
+    ...level,
+    modules: level.modules.filter(m => m.type === 'speaking')
+})).filter(level => level.modules.length > 0);
+---
+
+<Layout title="Speaking Drills">
+    <div class="space-y-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-bold text-white mb-4">Speaking Drills</h1>
+            <p class="text-gray-400">Improve your pronunciation with interactive voice exercises.</p>
+        </div>
+        <DashboardGrid client:load curriculum={speakingCurriculum} />
+    </div>
+</Layout>

@@ -1,0 +1,215 @@
+[
+    {
+        "level": "A1",
+        "title": "Beginner",
+        "description": "Essential foundations for communication.",
+        "modules": [
+            {
+                "id": "to-be-present",
+                "title": "Verb To Be (Present)",
+                "type": "grammar"
+            },
+            {
+                "id": "simple-present",
+                "title": "Simple Present Tense",
+                "type": "grammar"
+            },
+            {
+                "id": "articles",
+                "title": "Articles (A, An, The)",
+                "type": "grammar"
+            },
+            {
+                "id": "pronouns",
+                "title": "Personal Pronouns",
+                "type": "grammar"
+            },
+            {
+                "id": "greetings-basics",
+                "title": "Basic Greetings",
+                "type": "speaking"
+            },
+            {
+                "id": "daily-routine",
+                "title": "Daily Routine",
+                "type": "speaking"
+            },
+            {
+                "id": "numbers-dates",
+                "title": "Numbers & Dates",
+                "type": "speaking"
+            },
+            {
+                "id": "writing-intro",
+                "title": "Writing: Introduce Yourself",
+                "type": "writing"
+            }
+        ]
+    },
+    {
+        "level": "A2",
+        "title": "Elementary",
+        "description": "Expand your ability to describe and narrate.",
+        "modules": [
+            {
+                "id": "past-simple",
+                "title": "Past Simple (Regular/Irregular)",
+                "type": "grammar"
+            },
+            {
+                "id": "present-continuous",
+                "title": "Present Continuous",
+                "type": "grammar"
+            },
+            {
+                "id": "comparatives",
+                "title": "Comparatives & Superlatives",
+                "type": "grammar"
+            },
+            {
+                "id": "future-will",
+                "title": "Future with Will/Going to",
+                "type": "grammar"
+            },
+            {
+                "id": "directions",
+                "title": "Asking & Giving Directions",
+                "type": "speaking"
+            },
+            {
+                "id": "shopping",
+                "title": "Shopping & Money",
+                "type": "speaking"
+            },
+            {
+                "id": "travel",
+                "title": "Travel & Transport",
+                "type": "speaking"
+            },
+            {
+                "id": "shadowing-routine",
+                "title": "Shadowing: Morning Routine",
+                "type": "shadowing"
+            },
+            {
+                "id": "roleplay-cafe",
+                "title": "Roleplay: Ordering at a Cafe",
+                "type": "roleplay"
+            },
+            {
+                "id": "writing-daily-routine",
+                "title": "Writing: My Daily Routine",
+                "type": "writing"
+            }
+        ]
+    },
+    {
+        "level": "B1",
+        "title": "Intermediate",
+        "description": "Deal with most situations while travelling and describe experiences.",
+        "modules": [
+            {
+                "id": "present-perfect",
+                "title": "Present Perfect",
+                "type": "grammar"
+            },
+            {
+                "id": "conditionals-1-2",
+                "title": "Conditionals (1st & 2nd)",
+                "type": "grammar"
+            },
+            {
+                "id": "modals-deduction",
+                "title": "Modals of Deduction",
+                "type": "grammar"
+            },
+            {
+                "id": "passive-voice",
+                "title": "Passive Voice (Basics)",
+                "type": "grammar"
+            },
+            {
+                "id": "expressing-opinions",
+                "title": "Expressing Opinions",
+                "type": "speaking"
+            },
+            {
+                "id": "travel-experiences",
+                "title": "Narrating Travel Experiences",
+                "type": "speaking"
+            },
+            {
+                "id": "job-interview",
+                "title": "Job Interview Basics",
+                "type": "speaking"
+            },
+            {
+                "id": "shadowing-ted",
+                "title": "Shadowing: Inspirational Speech",
+                "type": "shadowing"
+            },
+            {
+                "id": "roleplay-doctor",
+                "title": "Roleplay: Visiting the Doctor",
+                "type": "roleplay"
+            },
+            {
+                "id": "writing-travel-blog",
+                "title": "Writing: Travel Blog Post",
+                "type": "writing"
+            }
+        ]
+    },
+    {
+        "level": "B2",
+        "title": "Upper Intermediate",
+        "description": "Understand complex text and interact with fluency.",
+        "modules": [
+            {
+                "id": "past-perfect",
+                "title": "Past Perfect & Narrative Tenses",
+                "type": "grammar"
+            },
+            {
+                "id": "conditional-3-mixed",
+                "title": "Third & Mixed Conditionals",
+                "type": "grammar"
+            },
+            {
+                "id": "passive-voice-advanced",
+                "title": "Advanced Passive Voice",
+                "type": "grammar"
+            },
+            {
+                "id": "reported-speech",
+                "title": "Reported Speech",
+                "type": "grammar"
+            },
+            {
+                "id": "debating",
+                "title": "Debating & Arguing",
+                "type": "speaking"
+            },
+            {
+                "id": "giving-presentations",
+                "title": "Giving Presentations",
+                "type": "speaking"
+            },
+            {
+                "id": "complex-scenarios",
+                "title": "Negotiating Complex Scenarios",
+                "type": "speaking"
+            },
+            {
+                "id": "roleplay-negotiation",
+                "title": "Roleplay: Salary Negotiation",
+                "type": "roleplay"
+            },
+            {
+                "id": "writing-opinion-essay",
+                "title": "Writing: Opinion Essay",
+                "type": "writing"
+            }
+        ]
+    }
+]
