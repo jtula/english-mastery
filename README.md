@@ -2,6 +2,8 @@
 
 A streamlined, interactive application designed to help beginners master the fundamentals of American English. Built with **Astro**, this project focuses on delivering high-performance content for grammar acquisition and speaking practice.
 
+![screenshot.png](screenshot.png)
+
 ## 🚀 Overview
 
 The **English Learning App** provides a structured environment for users to learn basic grammar, improve pronunciation, and practice conversation. By leveraging **Astro's** static site generation capabilities alongside **React** for interactivity, the app ensures a fast and seamless learning experience.
