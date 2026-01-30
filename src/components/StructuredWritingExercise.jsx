@@ -1,11 +1,30 @@
 import { useState } from "react";
+import { generateWritingFeedback } from "../services/ai";
 
 export default function StructuredWritingExercise({ lesson, lessonTitle }) {
     const [step, setStep] = useState(1); // 1: Model, 2: Analyze, 3: Practice
     const [userText, setUserText] = useState("");
     const [showComparison, setShowComparison] = useState(false);
+    const [feedback, setFeedback] = useState(null);
+    const [loading, setLoading] = useState(false);
 
     const completionProgress = (step / 3) * 100;
+
+    const handleSubmit = async () => {
+        if (!userText.trim()) return;
+
+        setLoading(true);
+        setShowComparison(true);
+
+        try {
+            const result = await generateWritingFeedback(lessonTitle, userText, ""); // Empty API key, handled by backend
+            setFeedback(result);
+        } catch (error) {
+            console.error("Failed to get AI feedback:", error);
+        } finally {
+            setLoading(false);
+        }
+    };
 
     return (
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in pb-20">
@@ -133,13 +152,11 @@ export default function StructuredWritingExercise({ lesson, lessonTitle }) {
                                     ← Back to Analysis
                                 </button>
                                 <button
-                                    onClick={() => {
-                                        if (userText.trim()) setShowComparison(true);
-                                    }}
-                                    disabled={!userText.trim()}
-                                    className="px-8 py-3 bg-white text-teal-900 font-bold rounded-xl shadow-lg shadow-white/10 transition-all hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
+                                    onClick={handleSubmit}
+                                    disabled={loading || !userText.trim()}
+                                    className="px-8 py-3 bg-white text-teal-900 font-bold rounded-xl shadow-lg shadow-white/10 transition-all hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
                                 >
-                                    Submit & Compare
+                                    {loading ? "Analyzing..." : "Submit & Compare"}
                                 </button>
                             </div>
                         </div>
@@ -147,9 +164,10 @@ export default function StructuredWritingExercise({ lesson, lessonTitle }) {
                         <div className="space-y-8 animate-fade-in">
                             <div className="text-center space-y-2">
                                 <h2 className="text-3xl font-bold text-white">Good Job!</h2>
-                                <p className="text-gray-400">Compare your text with the model structure.</p>
+                                <p className="text-gray-400">Compare your text with the model, then check the AI feedback below.</p>
                             </div>
 
+                            {/* Visual Comparison */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="bg-white/5 border border-white/10 rounded-2xl p-6">
                                     <h3 className="text-sm font-bold text-gray-500 mb-4 uppercase tracking-widest">Your Text</h3>
@@ -165,6 +183,7 @@ export default function StructuredWritingExercise({ lesson, lessonTitle }) {
                                 </div>
                             </div>
 
+                            {/* Self-Reflection */}
                             <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6">
                                 <h4 className="font-bold text-blue-300 mb-2">Self-Reflection Checklist:</h4>
                                 <ul className="space-y-2 text-gray-300">
@@ -177,7 +196,58 @@ export default function StructuredWritingExercise({ lesson, lessonTitle }) {
                                 </ul>
                             </div>
 
-                            <div className="flex justify-center pt-4">
+                            {/* AI Feedback Section */}
+                            <div className="pt-8 border-t border-white/10">
+                                {loading && !feedback && (
+                                    <div className="text-center py-12 space-y-4">
+                                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-teal-500 mx-auto"></div>
+                                        <p className="text-gray-400">AI is analyzing your grammar and vocabulary...</p>
+                                    </div>
+                                )}
+
+                                {feedback && (
+                                    <div className="space-y-8 animate-fade-in-up">
+                                        <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                                            AI Analysis
+                                        </h3>
+
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                            {/* Score */}
+                                            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
+                                                <div className="text-5xl font-black text-white mb-2">
+                                                    {feedback.score}<span className="text-xl text-gray-500">/10</span>
+                                                </div>
+                                                <p className="text-gray-400 text-sm">{feedback.general_feedback}</p>
+                                            </div>
+
+                                            {/* Corrections */}
+                                            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 space-y-4">
+                                                <h4 className="font-bold text-pink-400 flex items-center gap-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+                                                    Corrections
+                                                </h4>
+                                                {feedback.corrections?.length > 0 ? (
+                                                    <div className="space-y-3">
+                                                        {feedback.corrections.map((item, i) => (
+                                                            <div key={i} className="bg-black/20 rounded-lg p-3 text-sm">
+                                                                <div className="mb-1">
+                                                                    <span className="line-through text-red-400/70 mr-2">{item.original}</span>
+                                                                    <span className="text-green-400 font-bold">{item.correction}</span>
+                                                                </div>
+                                                                <p className="text-gray-500 italic text-xs">"{item.explanation}"</p>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                ) : (
+                                                    <p className="text-gray-500 italic">No errors found. Excellent!</p>
+                                                )}
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+
+                            <div className="flex justify-center pt-4 pb-12">
                                 <a
                                     href="/"
                                     className="px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white font-bold rounded-xl transition-all"
