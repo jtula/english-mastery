@@ -63,11 +63,10 @@ export default function DashboardGrid({ curriculum }) {
           </div>
           <a
             href="/review"
-            className={`relative z-10 px-8 py-3 rounded-xl font-bold transition-all shadow-lg flex items-center gap-2 ${
-              reviewStats.due > 0
+            className={`relative z-10 px-8 py-3 rounded-xl font-bold transition-all shadow-lg flex items-center gap-2 ${reviewStats.due > 0
                 ? "bg-white text-indigo-900 hover:bg-indigo-50 hover:scale-105"
                 : "bg-white/10 text-white cursor-default opacity-50"
-            }`}
+              }`}
           >
             {reviewStats.due > 0 ? "Start Review" : "Review Completed"}
             {reviewStats.due > 0 && (
@@ -148,17 +147,20 @@ export default function DashboardGrid({ curriculum }) {
                   href = `/writing/${module.id}`;
                   colorClass = "purple";
                   typeLabel = "Writing";
+                } else if (module.type === "structured-writing") {
+                  href = `/structured-writing/${module.id}`;
+                  colorClass = "teal";
+                  typeLabel = "Structured";
                 }
 
                 return (
                   <div key={module.id} className="relative group">
                     <a
                       href={href}
-                      className={`block h-full relative border rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${
-                        done
+                      className={`block h-full relative border rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${done
                           ? `bg-${colorClass}-500/10 border-${colorClass}-500/30 shadow-${colorClass}-500/10`
                           : "bg-white/5 border-white/10 hover:bg-white/10 hover:shadow-indigo-500/10"
-                      }`}
+                        }`}
                     >
                       <div
                         className={`absolute inset-0 bg-gradient-to-br from-${colorClass}-500/5 to-purple-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity`}
@@ -167,11 +169,10 @@ export default function DashboardGrid({ curriculum }) {
                       <div className="relative z-10">
                         <div className="flex justify-between items-start mb-4">
                           <span
-                            className={`inline-block px-3 py-1 text-xs font-semibold tracking-wide rounded-full ${
-                              done
+                            className={`inline-block px-3 py-1 text-xs font-semibold tracking-wide rounded-full ${done
                                 ? "bg-green-500/20 text-green-300"
                                 : `bg-${colorClass}-500/20 text-${colorClass}-300`
-                            }`}
+                              }`}
                           >
                             {done ? "Completed" : typeLabel}
                           </span>

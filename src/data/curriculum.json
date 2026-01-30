@@ -43,6 +43,11 @@
                 "id": "writing-intro",
                 "title": "Writing: Introduce Yourself",
                 "type": "writing"
+            },
+            {
+                "id": "intro-structured",
+                "title": "Structure: Self Introduction",
+                "type": "structured-writing"
             }
         ]
     },
@@ -100,6 +105,11 @@
                 "id": "writing-daily-routine",
                 "title": "Writing: My Daily Routine",
                 "type": "writing"
+            },
+            {
+                "id": "email-structured",
+                "title": "Structure: Simple Email",
+                "type": "structured-writing"
             }
         ]
     },
@@ -157,6 +167,11 @@
                 "id": "writing-travel-blog",
                 "title": "Writing: Travel Blog Post",
                 "type": "writing"
+            },
+            {
+                "id": "story-structured",
+                "title": "Structure: Narrative",
+                "type": "structured-writing"
             }
         ]
     },
@@ -209,6 +224,11 @@
                 "id": "writing-opinion-essay",
                 "title": "Writing: Opinion Essay",
                 "type": "writing"
+            },
+            {
+                "id": "review-structured",
+                "title": "Structure: Product Review",
+                "type": "structured-writing"
             }
         ]
     },
@@ -246,6 +266,11 @@
                 "id": "professional-networking",
                 "title": "Professional Networking",
                 "type": "speaking"
+            },
+            {
+                "id": "essay-structured",
+                "title": "Structure: Opinion Essay",
+                "type": "structured-writing"
             }
         ]
     },
@@ -283,6 +308,11 @@
                 "id": "cultural-fluency",
                 "title": "Cultural Fluency & References",
                 "type": "speaking"
+            },
+            {
+                "id": "academic-structured",
+                "title": "Structure: Abstract",
+                "type": "structured-writing"
             }
         ]
     }

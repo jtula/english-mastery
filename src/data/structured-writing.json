@@ -1,0 +1,152 @@
+[
+    {
+        "id": "intro-structured",
+        "level": "A1",
+        "title": "Structure: Self Introduction",
+        "modelText": "Hi! My name is Maria. I am from Spain. I live in Madrid. I am 25 years old. I am a student.",
+        "prompt": "Write a similar text introducing yourself using the structure provided.",
+        "analysis": [
+            {
+                "phrase": "My name is...",
+                "explanation": "Use this phrase to state your name."
+            },
+            {
+                "phrase": "I am from...",
+                "explanation": "Use this to say your country of origin."
+            },
+            {
+                "phrase": "I live in...",
+                "explanation": "Use this to specify your current city."
+            },
+            {
+                "phrase": "I am [number] years old.",
+                "explanation": "Always use 'I am' for age, not 'I have'."
+            }
+        ]
+    },
+    {
+        "id": "email-structured",
+        "level": "A2",
+        "title": "Structure: Simple Email",
+        "modelText": "Hi John,\n\nI hope you are well. I am writing to invite you to my birthday party on Saturday. It starts at 8 PM at my house. Please let me know if you can come.\n\nBest,\nSarah",
+        "prompt": "Write an email inviting a friend to a movie night.",
+        "analysis": [
+            {
+                "phrase": "I hope you are well.",
+                "explanation": "A standard friendly opening phrase."
+            },
+            {
+                "phrase": "I am writing to...",
+                "explanation": "Clear way to state the purpose of the email."
+            },
+            {
+                "phrase": "It starts at...",
+                "explanation": "Use this to specify the time of an event."
+            },
+            {
+                "phrase": "Please let me know if...",
+                "explanation": "Polite way to ask for a response or RSVP."
+            }
+        ]
+    },
+    {
+        "id": "story-structured",
+        "level": "B1",
+        "title": "Structure: Narrative",
+        "modelText": "Last summer, I went to Paris. At first, I was nervous because I didn't speak French. However, everyone was very friendly. Unexpectedly, I met an old friend at a cafe. In the end, it was the best trip of my life.",
+        "prompt": "Write a story about a memorable trip you took.",
+        "analysis": [
+            {
+                "phrase": "Last [time period], ...",
+                "explanation": "Set the scene with a time reference."
+            },
+            {
+                "phrase": "At first, ...",
+                "explanation": "Use this connector to describe the beginning of the situation."
+            },
+            {
+                "phrase": "However, ...",
+                "explanation": "Use this to introduce a contrast or change."
+            },
+            {
+                "phrase": "In the end, ...",
+                "explanation": "Good connector to wrap up the story."
+            }
+        ]
+    },
+    {
+        "id": "review-structured",
+        "level": "B2",
+        "title": "Structure: Product Review",
+        "modelText": "I recently bought the new X-Phone. Although it is expensive, the camera is outstanding. One downside is the battery life. On the other hand, the screen is beautiful. Overall, I would recommend it to photography lovers.",
+        "prompt": "Write a review of a device or gadget you own.",
+        "analysis": [
+            {
+                "phrase": "Although it is...",
+                "explanation": "Use 'Although' to introduce a concession."
+            },
+            {
+                "phrase": "One downside is...",
+                "explanation": "Useful phrase to introduce a negative point politey."
+            },
+            {
+                "phrase": "On the other hand, ...",
+                "explanation": "Classic connector to show the opposing (positive) view."
+            },
+            {
+                "phrase": "Overall, I would recommend...",
+                "explanation": "Standard phrase for the final verdict."
+            }
+        ]
+    },
+    {
+        "id": "essay-structured",
+        "level": "C1",
+        "title": "Structure: Opinion Essay",
+        "modelText": "It is often argued that technology disconnects us. To a certain extent, this is true. For instance, people often check phones during dinner. Nevertheless, technology also bridges gaps. Ultimately, it depends on how we use it.",
+        "prompt": "Write a short opinion paragraph: 'Is social media good for society?'",
+        "analysis": [
+            {
+                "phrase": "It is often argued that...",
+                "explanation": "Formal way to introduce a common opinion (Passive Voice)."
+            },
+            {
+                "phrase": "To a certain extent, ...",
+                "explanation": "Nuanced way to agree partially."
+            },
+            {
+                "phrase": "Nevertheless, ...",
+                "explanation": "Formal connector for contrast."
+            },
+            {
+                "phrase": "Ultimately, ...",
+                "explanation": "Strong connector for the final conclusion."
+            }
+        ]
+    },
+    {
+        "id": "academic-structured",
+        "level": "C2",
+        "title": "Structure: Abstract",
+        "modelText": "This paper examines the impact of AI on education. Specifically, it addresses the shift in pedagogical paradigms. The findings suggest that while efficiency increases, critical thinking may decline. Thus, a balanced approach is advocated.",
+        "prompt": "Write an abstract for a hypothetical paper on 'Remote Work'.",
+        "analysis": [
+            {
+                "phrase": "This paper examines...",
+                "explanation": "Academic standard for stating the subject."
+            },
+            {
+                "phrase": "Specifically, it addresses...",
+                "explanation": "Used to narrow down the focus."
+            },
+            {
+                "phrase": "The findings suggest that...",
+                "explanation": "Cautious and academic way to present results."
+            },
+            {
+                "phrase": "...is advocated.",
+                "explanation": "Passive voice is preferred in academic recommendations."
+            }
+        ]
+    }
+]
