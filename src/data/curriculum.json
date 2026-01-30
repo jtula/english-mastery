@@ -211,5 +211,79 @@
                 "type": "writing"
             }
         ]
+    },
+    {
+        "level": "C1",
+        "title": "Advanced",
+        "description": "Express ideas fluently and spontaneously without much obvious searching for expressions.",
+        "modules": [
+            {
+                "id": "inversion-negative",
+                "title": "Inversion with Negative Adverbials",
+                "type": "grammar"
+            },
+            {
+                "id": "subjunctive-mood",
+                "title": "The Subjunctive Mood",
+                "type": "grammar"
+            },
+            {
+                "id": "cleft-sentences",
+                "title": "Cleft Sentences for Emphasis",
+                "type": "grammar"
+            },
+            {
+                "id": "persuasion",
+                "title": "Persuasive Techniques",
+                "type": "speaking"
+            },
+            {
+                "id": "abstract-concepts",
+                "title": "Discussing Abstract Concepts",
+                "type": "speaking"
+            },
+            {
+                "id": "professional-networking",
+                "title": "Professional Networking",
+                "type": "speaking"
+            }
+        ]
+    },
+    {
+        "level": "C2",
+        "title": "Mastery",
+        "description": "Understand with ease virtually everything heard or read.",
+        "modules": [
+            {
+                "id": "stylistic-inversion",
+                "title": "Stylistic Inversion",
+                "type": "grammar"
+            },
+            {
+                "id": "archaic-forms",
+                "title": "Archaic & Literary Forms",
+                "type": "grammar"
+            },
+            {
+                "id": "ellipsis-substitution",
+                "title": "Ellipsis & Substitution",
+                "type": "grammar"
+            },
+            {
+                "id": "nuance-irony",
+                "title": "Nuance, Irony & Humor",
+                "type": "speaking"
+            },
+            {
+                "id": "public-speaking",
+                "title": "Mastering Public Speaking",
+                "type": "speaking"
+            },
+            {
+                "id": "cultural-fluency",
+                "title": "Cultural Fluency & References",
+                "type": "speaking"
+            }
+        ]
     }
 ]

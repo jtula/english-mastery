@@ -27,5 +27,179 @@
                 "audioUrl": ""
             }
         ]
+    },
+    {
+        "id": "persuasion",
+        "title": "Persuasive Techniques",
+        "level": "C1",
+        "description": "Lear to convince others effectively.",
+        "drills": [
+            {
+                "id": "drill-p1",
+                "phrase": "I firmly believe that we must act now.",
+                "phonetic": "/aɪ ˈfɜrmli bɪˈliv ðæt wi mʌst ækt naʊ/",
+                "translation": "Creo firmemente que debemos actuar ahora.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-p2",
+                "phrase": "Wouldn't you agree that this is the best option?",
+                "phonetic": "/ˈwʊdənt ju əˈgri ðæt ðɪs ɪz ðə bɛst ˈɑpʃən/",
+                "translation": "¿No estarías de acuerdo en que esta es la mejor opción?",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-p3",
+                "phrase": "There is no doubt in my mind.",
+                "phonetic": "/ðɛr ɪz noʊ daʊt ɪn maɪ maɪnd/",
+                "translation": "No tengo ninguna duda en mi mente.",
+                "audioUrl": ""
+            }
+        ]
+    },
+    {
+        "id": "abstract-concepts",
+        "title": "Discussing Abstract Concepts",
+        "level": "C1",
+        "description": "Talking about ideas, philosophy, and theories.",
+        "drills": [
+            {
+                "id": "drill-ab1",
+                "phrase": "The concept of freedom is subjective.",
+                "phonetic": "/ðə ˈkɑnsɛpt ʌv ˈfridəm ɪz səbˈdʒɛktɪv/",
+                "translation": "El concepto de libertad es subjetivo.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-ab2",
+                "phrase": "Hypothetically speaking, it could work.",
+                "phonetic": "/ˌhaɪpəˈθɛtɪkli ˈspikɪŋ, ɪt kʊd wɜrk/",
+                "translation": "Hipotéticamente hablando, podría funcionar.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-ab3",
+                "phrase": "Let's consider the ethical implications.",
+                "phonetic": "/lɛts kənˈsɪdər ðə ˈɛθɪkəl ˌɪmplɪˈkeɪʃənz/",
+                "translation": "Consideremos las implicaciones éticas.",
+                "audioUrl": ""
+            }
+        ]
+    },
+    {
+        "id": "professional-networking",
+        "title": "Professional Networking",
+        "level": "C1",
+        "description": "Business socialization phrases.",
+        "drills": [
+            {
+                "id": "drill-net1",
+                "phrase": "I'd love to pick your brain on this.",
+                "phonetic": "/aɪd lʌv tu pɪk jʊər breɪn ɑn ðɪs/",
+                "translation": "Me encantaría conocer tu opinión sobre esto.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-net2",
+                "phrase": "Let's keep in touch.",
+                "phonetic": "/lɛts kip ɪn tʌtʃ/",
+                "translation": "Mantengámonos en contacto.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-net3",
+                "phrase": "Here is my card.",
+                "phonetic": "/hɪr ɪz maɪ kɑrd/",
+                "translation": "Aquí tienes mi tarjeta.",
+                "audioUrl": ""
+            }
+        ]
+    },
+    {
+        "id": "nuance-irony",
+        "title": "Nuance, Irony & Humor",
+        "level": "C2",
+        "description": "Understanding subtle meanings.",
+        "drills": [
+            {
+                "id": "drill-ir1",
+                "phrase": "Well, that went swimmingly.",
+                "phonetic": "/wɛl, ðæt wɛnt ˈswɪmɪŋli/",
+                "translation": "Bueno, eso salió a pedir de boca (usado irónicamente si salió mal).",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-ir2",
+                "phrase": "You're killing me!",
+                "phonetic": "/jʊr ˈkɪlɪŋ mi/",
+                "translation": "¡Me matas de risa!",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-ir3",
+                "phrase": "It's not exactly rocket science.",
+                "phonetic": "/ɪts nɑt ɪgˈzæktli ˈrɑkət ˈsaɪəns/",
+                "translation": "No es exactamente ingeniería espacial (es fácil).",
+                "audioUrl": ""
+            }
+        ]
+    },
+    {
+        "id": "public-speaking",
+        "title": "Mastering Public Speaking",
+        "level": "C2",
+        "description": "Oration and formal address.",
+        "drills": [
+            {
+                "id": "drill-ps1",
+                "phrase": "Ladies and gentlemen, distinguished guests.",
+                "phonetic": "/ˈleɪdiz ænd ˈdʒɛntəlmɛn, dɪˈstɪŋgwɪʃt gɛsts/",
+                "translation": "Damas y caballeros, distinguidos invitados.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-ps2",
+                "phrase": "I stand before you today...",
+                "phonetic": "/aɪ stænd bɪˈfɔr ju təˈdeɪ/",
+                "translation": "Me presento ante ustedes hoy...",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-ps3",
+                "phrase": "Let us not forget our history.",
+                "phonetic": "/lɛt ʌs nɑt fərˈgɛt ˈaʊər ˈhɪstəri/",
+                "translation": "No olvidemos nuestra historia.",
+                "audioUrl": ""
+            }
+        ]
+    },
+    {
+        "id": "cultural-fluency",
+        "title": "Cultural Fluency",
+        "level": "C2",
+        "description": "Idioms and cultural references.",
+        "drills": [
+            {
+                "id": "drill-cul1",
+                "phrase": "It's engaging in a wild goose chase.",
+                "phonetic": "/ɪts ɛnˈgeɪdʒɪŋ ɪn ə waɪld gus tʃeɪs/",
+                "translation": "Es una búsqueda inútil.",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-cul2",
+                "phrase": "Spill the beans.",
+                "phonetic": "/spɪl ðə binz/",
+                "translation": "Suelta la sopa (cuenta el secreto).",
+                "audioUrl": ""
+            },
+            {
+                "id": "drill-cul3",
+                "phrase": "Break a leg!",
+                "phonetic": "/breɪk ə lɛg/",
+                "translation": "¡Buena suerte!",
+                "audioUrl": ""
+            }
+        ]
     }
 ]

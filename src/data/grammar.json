@@ -41,5 +41,239 @@
                 "explanation": "'She' is 3rd person singular, so we use 'is'."
             }
         ]
+    },
+    {
+        "id": "inversion-negative",
+        "title": "Inversion with Negative Adverbials",
+        "level": "C1",
+        "description": "Master emphatic structures like 'Rarely have I seen...'",
+        "theory": "## Inversion with Negative Adverbials\n\nIn formal and extensive writing, we sometimes reverse the subject and auxiliary verb after certain negative or limiting adverbs to add emphasis or dramatic effect.\n\n### Common Adverbials\n\n*   **Rarely/Seldom:** *Rarely have I seen such beauty.* (NOT: Rarely I have seen...)\n*   **Never:** *Never in my life will I forget this.* (NOT: Never I will forget...)\n*   **Little:** *Little did he know about the surprise.* (NOT: Little he knew...)\n*   **Under no circumstances:** *Under no circumstances should you open this door.*",
+        "examples": [
+            {
+                "en": "Seldom do we see such commitment.",
+                "es": "Raramente vemos tal compromiso."
+            },
+            {
+                "en": "Not only did he win, but he also broke the record.",
+                "es": "No solo ganó, sino que también rompió el récord."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "Rarely ___ she eat meat.",
+                "options": [
+                    "does",
+                    "do",
+                    "is"
+                ],
+                "correct": "does",
+                "explanation": "Inversion requires 'does' before the subject 'she'."
+            },
+            {
+                "question": "Under no circumstances ___ you leave the room.",
+                "options": [
+                    "should",
+                    "you should",
+                    "leaving"
+                ],
+                "correct": "should",
+                "explanation": "Inversion: auxiliary verb 'should' comes before subject 'you'."
+            }
+        ]
+    },
+    {
+        "id": "subjunctive-mood",
+        "title": "The Subjunctive Mood",
+        "level": "C1",
+        "description": "Express wishes, suggestions, and hypothetical situations.",
+        "theory": "## The Subjunctive Mood\n\nThe subjunctive mood is used to explore conditional or imaginary situations, as well as commands or wishes.\n\n### Usage\n\n*   **Suggestions/Demands:** After verbs like *suggest, recommend, insist, demand*. The verb form remains in the **base form** (infinite without 'to') for all persons.\n    *   *I suggest that he **study** harder.* (NOT: studies)\n    *   *It is vital that she **be** present.* (NOT: is)\n*   **Wishes/Hyptheticals:** using 'were' instead of 'was'.\n    *   *I wish I **were** taller.*",
+        "examples": [
+            {
+                "en": "The doctor recommended that he stop smoking.",
+                "es": "El doctor recomendó que él dejara de fumar."
+            },
+            {
+                "en": "It is essential that we be on time.",
+                "es": "Es esencial que lleguemos a tiempo."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "I insist that he ___ immediately.",
+                "options": [
+                    "apologize",
+                    "apologizes",
+                    "apologized"
+                ],
+                "correct": "apologize",
+                "explanation": "Subjunctive uses the base form 'apologize'."
+            },
+            {
+                "question": "If I ___ you, I would accept the offer.",
+                "options": [
+                    "was",
+                    "were",
+                    "am"
+                ],
+                "correct": "were",
+                "explanation": "'Were' is the standard subjunctive form for 'to be' in hypotheticals."
+            }
+        ]
+    },
+    {
+        "id": "cleft-sentences",
+        "title": "Cleft Sentences",
+        "level": "C1",
+        "description": "Focus attention on specific parts of a sentence.",
+        "theory": "## Cleft Sentences\n\nCleft sentences are used to connect what is already understood to what is new to the listener. They split a single message into two clauses.\n\n### It-Clefts\n\nStructure: *It + be + emphasized element + that/who clause*\n\n*   *It was **John** who broke the window.* (Emphasis on John)\n*   *It was **yesterday** that we met.* (Emphasis on yesterday)\n\n### Wh-Clefts\n\nStructure: *Wh-clause + be + emphasized element*\n\n*   *What I need is **a break**.*\n*   *What she did was **resign**.*",
+        "examples": [
+            {
+                "en": "It was the rain that caused the delay.",
+                "es": "Fue la lluvia lo que causó el retraso."
+            },
+            {
+                "en": "What I really want is clarity.",
+                "es": "Lo que realmente quiero es claridad."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "It was my brother ___ called you.",
+                "options": [
+                    "who",
+                    "which",
+                    "what"
+                ],
+                "correct": "who",
+                "explanation": "Use 'who' for people in cleft sentences."
+            },
+            {
+                "question": "___ I need is a coffee.",
+                "options": [
+                    "What",
+                    "It",
+                    "Which"
+                ],
+                "correct": "What",
+                "explanation": "Wh-clefts often start with 'What'."
+            }
+        ]
+    },
+    {
+        "id": "stylistic-inversion",
+        "title": "Stylistic Inversion",
+        "level": "C2",
+        "description": "Advanced inversion for literary and rhetorical effect.",
+        "theory": "## Stylistic Inversion\n\nBeyond negative adverbials, inversion can be used in other contexts for style.\n\n### After Place Expressions\n\n*   *On the hill **stood a castle**.*\n*   *Here **comes the bus**.*\n\n### Conditionals without 'If'\n\n*   *Had I known, I would have helped.*\n*   *Were we to fail, the consequences would be dire.*\n*   *Should you need assistance, call me.*",
+        "examples": [
+            {
+                "en": "Round the corner came the knight.",
+                "es": "A la vuelta de la esquina vino el caballero."
+            },
+            {
+                "en": "Had they arrived earlier, they would have seen it.",
+                "es": "Si hubieran llegado antes, lo habrían visto."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "___ I known about the party, I would have gone.",
+                "options": [
+                    "Had",
+                    "Have",
+                    "If"
+                ],
+                "correct": "Had",
+                "explanation": "'Had I known' is equivalent to 'If I had known'."
+            },
+            {
+                "question": "On the table ___ a letter.",
+                "options": [
+                    "sat",
+                    "sitting",
+                    "sit"
+                ],
+                "correct": "sat",
+                "explanation": "Inversion: Verb 'sat' before subject 'a letter'."
+            }
+        ]
+    },
+    {
+        "id": "archaic-forms",
+        "title": "Archaic & Literary Forms",
+        "level": "C2",
+        "description": "Understanding Shakespearean and old legal English.",
+        "theory": "## Archaic & Literary Forms\n\nThese forms are rarely used in speech but appear in literature, poetry, and legal documents.\n\n### Pronouns\n\n*   **Thou:** You (singular subject)\n*   **Thee:** You (singular object)\n*   **Thy/Thine:** Your/Yours\n*   **Ye:** You (plural subject)\n\n### Verbs\n\n*   *-est* ending (2nd person): *Thou goest*\n*   *-eth* ending (3rd person): *He goeth*",
+        "examples": [
+            {
+                "en": "Thou art my friend.",
+                "es": "Tú eres mi amigo."
+            },
+            {
+                "en": "With this ring, I thee wed.",
+                "es": "Con este anillo, me caso contigo."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "To thine own self ___ true.",
+                "options": [
+                    "be",
+                    "is",
+                    "art"
+                ],
+                "correct": "be",
+                "explanation": "Famous quote: 'To thine own self be true'."
+            },
+            {
+                "question": "Whither ___ thou goest?",
+                "options": [
+                    "do",
+                    "-",
+                    "dost"
+                ],
+                "correct": "-",
+                "explanation": "Traditional structure: Whither goest thou? (No auxiliary 'do'). Or Whither dost thou go?"
+            }
+        ]
+    },
+    {
+        "id": "ellipsis-substitution",
+        "title": "Ellipsis & Substitution",
+        "level": "C2",
+        "description": "Advanced cohesion techniques by omitting words.",
+        "theory": "## Ellipsis & Substitution\n\nAvioding repetition to create cohesive texts.\n\n### Ellipsis (Omission)\n\n*   *He went to the bank and (he) withdrew some money.*\n*   *She didn't pass the exam, but she could have (passed).*\n\n### Substitution\n\nUsing words like *one, ones, do, so, not* to replace other words.\n\n*   *I'll have the red **one**.*\n*   *Do you think it will rain? I hope **so** / I hope **not**.*\n*   *She loves pizza, and **so do** I.*",
+        "examples": [
+            {
+                "en": "I haven't read that book, but I'd like to.",
+                "es": "No he leído ese libro, pero me gustaría (hacerlo)."
+            },
+            {
+                "en": "If you need a pen, there's one on the desk.",
+                "es": "Si necesitas un bolígrafo, hay uno en el escritorio."
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "A: Will he be late? B: I suppose ___.",
+                "options": [
+                    "so",
+                    "it",
+                    "that"
+                ],
+                "correct": "so",
+                "explanation": "'I suppose so' substitutes the affirmative clause."
+            },
+            {
+                "question": "She didn't go to the party, but she should ___.",
+                "options": [
+                    "have",
+                    "of",
+                    "do"
+                ],
+                "correct": "have",
+                "explanation": "Ellipsis: 'should have (gone)'."
+            }
+        ]
     }
 ]
